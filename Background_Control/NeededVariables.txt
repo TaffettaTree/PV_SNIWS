@@ -1,0 +1,15 @@
+﻿Internal Control "Control_Weather_OnTime" bool
+Internal Control "Control_Weather_Force" bool
+Interanl AML "Control_AML_Text" string
+Interanl AML "Control_AML_Switch" bool
+Function "Control_AML_Switch_off" Write/set value OFF to "Control_AML_Switch"
+Function "Control_Weather_OnTime_ON" Write/set value ON to "Control_Weather_OnTime"
+Function "Control_Weather_OnTime_OFF" Write/set value OFF to "Control_Weather_OnTime"
+Function "Control_Weather_Force_ON" Write/set value ON to "Control_Weather_Force"
+Function "Control_Weather_Force_OFF" Write/set value OFF to "Control_Weather_Force"
+Time Control "Control_Weather_TimeControl" Cyclic function:"Control_Weather_OnTime"
+
+Function "Control_AUTOSTART" start service in AUTOSTART script
+Function "Control_AUTOEND" start service in AUTOEND script
+
+Funtion "Screen_Loading_On" Screen switch

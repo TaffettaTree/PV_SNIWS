@@ -1,0 +1,6 @@
+﻿
+ValueMask	:	0
+
+
+ValueMask	:	4294967295
+ValueMask	:	4294967295
